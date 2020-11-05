@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10148" started-at="2020-11-05T15:00:15 IST" finished-at="2020-11-05T15:00:25 IST">
+    <groups>
+      <group name="Business">
+        <method signature="Test007.testCartForProduct()[pri:1, instance:tests.Test007@3b088d51]" name="testCartForProduct" class="tests.Test007"/>
+        <method signature="Test007.testCartForQuantity()[pri:3, instance:tests.Test007@3b088d51]" name="testCartForQuantity" class="tests.Test007"/>
+        <method signature="Test007.testCartForSize()[pri:2, instance:tests.Test007@3b088d51]" name="testCartForSize" class="tests.Test007"/>
+      </group> <!-- Business -->
+      <group name="Cart">
+        <method signature="Test007.testCartForProduct()[pri:1, instance:tests.Test007@3b088d51]" name="testCartForProduct" class="tests.Test007"/>
+        <method signature="Test007.testCartForQuantity()[pri:3, instance:tests.Test007@3b088d51]" name="testCartForQuantity" class="tests.Test007"/>
+        <method signature="Test007.testCartForSize()[pri:2, instance:tests.Test007@3b088d51]" name="testCartForSize" class="tests.Test007"/>
+      </group> <!-- Cart -->
+    </groups>
+    <test name="Default test" duration-ms="10148" started-at="2020-11-05T15:00:15 IST" finished-at="2020-11-05T15:00:25 IST">
+      <class name="tests.Test007">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:tests.Test007@3b088d51]" name="setUpTest" is-config="true" duration-ms="2633" started-at="2020-11-05T15:00:15 IST" finished-at="2020-11-05T15:00:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testCartForProduct()[pri:1, instance:tests.Test007@3b088d51]" name="testCartForProduct" duration-ms="4284" started-at="2020-11-05T15:00:18 IST" finished-at="2020-11-05T15:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartForProduct -->
+        <test-method status="PASS" signature="testCartForSize()[pri:2, instance:tests.Test007@3b088d51]" name="testCartForSize" duration-ms="23" started-at="2020-11-05T15:00:22 IST" finished-at="2020-11-05T15:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartForSize -->
+        <test-method status="PASS" signature="testCartForQuantity()[pri:3, instance:tests.Test007@3b088d51]" name="testCartForQuantity" duration-ms="35" started-at="2020-11-05T15:00:22 IST" finished-at="2020-11-05T15:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartForQuantity -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:tests.Test007@3b088d51]" name="tearDownTest" is-config="true" duration-ms="3149" started-at="2020-11-05T15:00:22 IST" finished-at="2020-11-05T15:00:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.Test007 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

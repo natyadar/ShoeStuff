@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestAll">
+  
+  	<groups>
+    		
+  		<run>
+
+  			<include name="ProductSpecifics"></include>
+  			
+  		</run>
+  		
+  	</groups>
+  
+    <classes>
+      <class name="tests.Test001"/>
+      <class name="tests.Test002"/>
+      <class name="tests.Test003"/>
+      <class name="tests.Test004"/>
+      <class name="tests.Test005"/>
+      <class name="tests.Test006"/>
+      <class name="tests.Test007"/>
+      <class name="tests.Test008"/>
+      <class name="tests.Test009"/>
+      <class name="tests.Test010"/>
+    </classes>
+  </test> <!-- TestAll -->
+</suite> <!-- Suite -->
